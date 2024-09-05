@@ -1,12 +1,12 @@
 import React from 'react'
-import link from 'next/link'
+import Link from 'next/link'
 const Header = () => {
   return (
-    <div>
- <link href='\'>Home page </link>    
- <link href='\about'>About page </link>  
- <link href='\adress'>Adress page </link>   
- <link href='\contact'>Contact page </link> 
+    <div className='flex gap-5 p-6 bg-red-300'>
+ <Link href='\'>Home </Link>    
+ <Link href='\about'>About </Link>  
+ <Link href='\adress'>Adress </Link>   
+ <Link href='\contact'>Contact </Link> 
     </div>
   )
 }
