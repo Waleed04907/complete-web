@@ -9,7 +9,7 @@ const page = () => {
           <h1 className="mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">This is our About Page</h1>
         </div>
         <div className="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-          <img src="/about-us.jpg" alt="" className="w-full h- object-cover rounded-lg sm:h-70 sm:col-span-2 lg:col-span-full" loading="lazy" />
+          <img src="/About-us.jpg" alt="" className="w-full h- object-cover rounded-lg sm:h-70 sm:col-span-2 lg:col-span-full" loading="lazy" />
         </div>
         <dl className="mt-4 text-xs font-medium flex items-center row-start-2 sm:mt-1 sm:row-start-3 md:mt-2.5 lg:row-start-2">
           <dt className="sr-only">Reviews</dt>
